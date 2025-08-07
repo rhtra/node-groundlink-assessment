@@ -1,11 +1,16 @@
-Clone the repository  
-Under folder, run npm install  
-For adding properties, please run test.html that will call post-data-request.js  
-Endpoints available:  
-URL/properties [GET METHOD]  
-URL/addProperty [POST METHOD]    
+# Getting Started with Create React App
 
-To Do:  
-Integrate Database for data collection (will include sql file to push)  
-Pagination for get requests  
-Message queue for writes  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm install`
+### `node index.js`
+
+GET /fibonacci?n=10
+GET /fibonacci?n=10&a=2&b=4 - optional for a and b for initial sequence
+GET /fibonacci?n=10&a=3 - optional for a and b for initial sequence
+GET /fibonacci?n=10&b=4 - optional for a and b for initial sequence
+GET /max-sum?nums=2,4,6,2,5
